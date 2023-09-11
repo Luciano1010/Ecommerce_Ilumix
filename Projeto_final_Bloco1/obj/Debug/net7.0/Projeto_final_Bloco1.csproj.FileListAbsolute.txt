@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\bin\Debug\net7.0\Projeto_final_Bloco1.exe
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\bin\Debug\net7.0\Projeto_final_Bloco1.deps.json
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\bin\Debug\net7.0\Projeto_final_Bloco1.runtimeconfig.json
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\bin\Debug\net7.0\Projeto_final_Bloco1.dll
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\bin\Debug\net7.0\Projeto_final_Bloco1.pdb
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\obj\Debug\net7.0\Projeto_final_Bloco1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\obj\Debug\net7.0\Projeto_final_Bloco1.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\obj\Debug\net7.0\Projeto_final_Bloco1.AssemblyInfo.cs
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\obj\Debug\net7.0\Projeto_final_Bloco1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\obj\Debug\net7.0\Projeto_final_Bloco1.dll
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\obj\Debug\net7.0\refint\Projeto_final_Bloco1.dll
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\obj\Debug\net7.0\Projeto_final_Bloco1.pdb
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\obj\Debug\net7.0\Projeto_final_Bloco1.genruntimeconfig.cache
+C:\Users\User\Desktop\Área de Trabalho\Projeto_Final_Bloco1\Projeto_final_Bloco1\obj\Debug\net7.0\ref\Projeto_final_Bloco1.dll
