@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Projeto_final_Bloco1.Model;
+using System;
 
 namespace Projeto_final_Bloco1
 {
@@ -8,7 +9,9 @@ namespace Projeto_final_Bloco1
         static void Main(string[] args)
         {
             int opcao = 0;
-            
+
+            Luminarias luminarias = new Luminarias("1", "perfilado", "Branco", "Led", 1200);
+            luminarias.Visualizar();
 
             while (true)
             {
