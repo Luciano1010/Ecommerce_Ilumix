@@ -1,17 +1,17 @@
 ﻿using Projeto_final_Bloco1.Model;
-using System;
+
+
 
 namespace Projeto_final_Bloco1
 {
-    internal class Program
+    public class Program
     {
         private static ConsoleKeyInfo consoleKeyInfo;
         static void Main(string[] args)
         {
             int opcao = 0;
-
-            Luminarias luminarias = new Luminarias("1", "perfilado", "Branco", "Led", 1200);
-            luminarias.Visualizar();
+            string? cor, material;
+            float tamanho;
 
             while (true)
             {
@@ -41,28 +41,39 @@ namespace Projeto_final_Bloco1
                         case 1:
 
                             Console.WriteLine("Digite a Personazalição da Luminaria:");
-                            Console.WriteLine("Luminaria Criada com Sucesso  ");
+                            Console.WriteLine("Tamanho da luminaria; ");
+                            tamanho = Convert.ToSingle(Console.ReadLine());
+
+                            Console.WriteLine("Digite a cor desejada");
+                            cor = Console.ReadLine();
+
+                            Console.WriteLine("Digite o Material Desejado");
+                            material = Console.ReadLine();
+
+
+                          
 
                             KeyPress();
                             Console.Clear();
                             break;
+
 
 
                         case 2:
 
-
-                            Console.WriteLine("Lista de Produtos de nosso Catalogo");
-
+                            Console.WriteLine("Lista de Produtos ");
+                           
                             KeyPress();
                             Console.Clear();
                             break;
 
 
+                    
                         case 3:
-
 
                             Console.WriteLine("Digite a Luminaria a ser buscada");
 
+                            
                             KeyPress();
                             Console.Clear();
                             break;
@@ -75,11 +86,14 @@ namespace Projeto_final_Bloco1
                             Console.Clear();
                             break;
 
+
                         case 5:
 
                             Console.WriteLine("A Ilumix agradece sua Visita");
-
                             break;
+
+
+
 
 
                         default:
@@ -108,6 +122,9 @@ namespace Projeto_final_Bloco1
             } while (consoleKeyInfo.Key != ConsoleKey.Enter);
         }
     }
+
+
+
 
 }
             

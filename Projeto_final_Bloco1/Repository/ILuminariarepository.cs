@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Projeto_final_Bloco1
+namespace Projeto_final_Bloco1.Repository
 {
-    internal interface ILuminariaRepository
+    internal interface ILuminariarepository
     {
     }
 }
