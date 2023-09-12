@@ -12,17 +12,18 @@ namespace Projeto_final_Bloco1.Model
         private string tamanho = string.Empty;
         private string formato = string.Empty;
         private string Cores = string.Empty;
-        private string Fontedeluz = string.Empty;
+       
         private int preco ;
-
-        public Luminarias(string tamanho, string formato, string cores, string fontedeluz, int preco, int id)
+        private string nome;
+        public Luminarias(string tamanho, string formato, string cores, int preco, int id, string nome)
         {
             this.tamanho = tamanho;
             this.formato = formato;
             this.Cores = cores;
-            this.Fontedeluz = fontedeluz;
+           
             this.preco = preco;
             this.id = id;
+            this.nome = nome;
         }
 
         public string Gettamanho() 
@@ -61,18 +62,7 @@ namespace Projeto_final_Bloco1.Model
             this.Cores = cores;
         }
         
-        public string GetFontedeluz() 
-        {
-                return Fontedeluz;
-        }
-
-        public void SetFontedeluz(string Fontedeluz) 
-        {
-
-            this.Fontedeluz = Fontedeluz;
-
-        }
-
+       
         public int Getpreco() 
         {
             return preco;
@@ -85,6 +75,17 @@ namespace Projeto_final_Bloco1.Model
             return id;  
         }
 
+        public string Getnome() 
+        {
+            return nome;
+        
+        }
+
+        public void Setnome(string nome) 
+        {
+            this.nome = nome;
+        
+        }
 
         public virtual void Visualizar() 
         {
@@ -93,7 +94,8 @@ namespace Projeto_final_Bloco1.Model
             Console.WriteLine("O tamanho da luminaria escolhida: " + this.tamanho);
             Console.WriteLine("O Formato escolhido: " + this.formato);
             Console.WriteLine("Cor: " + this.Cores);
-            Console.WriteLine("Fonte de luz escolhida: " + this.Fontedeluz);
+            
+            Console.WriteLine("O nome da Luminaria: " + this.nome);
             Console.WriteLine("O Modelo escolhido: " + this.id);
             Console.WriteLine("O valor da Luminaria escolhida:R$ " + this.preco);
             Console.WriteLine("************************************************");

@@ -8,15 +8,21 @@ namespace Projeto_final_Bloco1.Model
 {
     public class Led : Luminarias
     {
-        private string leds;
-        public Led(string tamanho, string formato, string cores, string fontedeluz, int preco, string leds, int id) : base(tamanho, formato, cores, fontedeluz, preco,id)
+        private int leds;
+        public Led(string tamanho, string formato, string cores,  int preco, int leds, int id,string nome) : base(tamanho, formato, cores, preco,id,nome)
         {
             this.leds = leds;
         }
 
-        public string Getleds() 
+        public int Getleds() 
         {
             return leds;
+        }
+
+        public void Setleds(int leds) 
+        {
+            this.leds = leds;
+           
         }
 
         public override void Visualizar()

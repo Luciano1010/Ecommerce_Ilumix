@@ -10,7 +10,7 @@ namespace Projeto_final_Bloco1.Model
     {
         private string florescente = string.Empty;
 
-        public Florescentes(string tamanho, string formato, string cores, string fontedeluz, int preco, string florescente, int id) : base(tamanho, formato, cores, fontedeluz, preco,id)
+        public Florescentes(string tamanho, string formato, string cores,  int preco, string florescente, int id,string nome) : base(tamanho, formato, cores, preco,id, nome)
         {
             this.florescente = florescente;
         
@@ -21,6 +21,11 @@ namespace Projeto_final_Bloco1.Model
         
         }
 
+        public void Setflorescentes(string florescentes) 
+        {
+        
+            this.florescente = florescentes;
+        }
         public override void Visualizar()
         {
             base.Visualizar();
